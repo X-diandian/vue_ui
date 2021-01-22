@@ -23,5 +23,5 @@ router.beforeEach((to, from, next) => {
   if (!tokenStr) return next('/login')
   next()
 })
-给i他
+
 export default router
